@@ -1,0 +1,70 @@
+fieldset{
+    width: fit-content;
+    background-color: rgb(109, 96, 18);
+    color: rgb(240, 240, 255);
+    border: solid 3px;
+    border-radius: 20px;
+}
+.submit{
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(247, 60, 107);
+    background-color: brown;
+}
+#b{
+    color: rgb(247, 60, 107);
+}
+#loginpic{
+    background-image: url(../picturs/login.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#div{
+    margin-top: 10%;
+}
+#hometabel{
+    border: 3px solid;
+    border-color: bisque;
+    font-size: 70px;
+    width: 1350px;
+}
+header{
+    position: fixed;
+    background-color: black;
+}
+a{
+    color: bisque;
+}
+#home{
+    background-color: aquamarine;
+    color: rgb(224, 23, 23);
+}
+#grocery{
+    background-color: rgb(245, 216, 87);
+}
+#foods{
+    background-color: green;
+    color: white;
+}
+#barbeque{
+    background-color: rgb(195, 50, 55);
+    color: bisque;
+}
+#abaut{
+    background-color: burlywood;
+}
+#barbeque-div{
+    margin-top: 8%;
+}
+#home-div{
+    margin-top: 8%;
+}
+#grocery-div{
+    margin-top: 8%;
+}
+#foods-div{
+    margin-top: 8%;
+}
+#abaut-div{
+    margin-top: 8%;
+}
