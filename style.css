@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 fieldset{
     width: fit-content;
     background-color: rgb(109, 96, 18);
@@ -22,15 +27,20 @@ fieldset{
 #div{
     margin-top: 10%;
 }
-#hometabel{
-    border: 3px solid;
-    border-color: bisque;
-    font-size: 70px;
-    width: 1350px;
+.home{
+    border: 2px solid;
+    border-color: rgb(63, 13, 163);
+    display: inline;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: rgb(14, 25, 12);
+    margin-left: 20px;
+    transform-style: preserve-3d;
+    animation-delay: 2s;
 }
 header{
     position: fixed;
-    background-color: black;
+    border-color: black;
 }
 a{
     color: bisque;
