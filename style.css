@@ -3,78 +3,113 @@
     padding: 0;
     box-sizing: border-box;
 }
-fieldset{
+html{
+    scroll-behavior: smooth;
+}
+
+fieldset {
     width: fit-content;
-    background-color: rgb(109, 96, 18);
+    background-color: gray;
     color: rgb(240, 240, 255);
     border: solid 3px;
     border-radius: 20px;
+    padding: 20px;
+    font-size: large;
 }
-.submit{
-    border-radius: 40px;
-    color: rgb(255, 255, 255);
-    border-color: rgb(247, 60, 107);
-    background-color: brown;
-}
-#b{
-    color: rgb(247, 60, 107);
-}
-#loginpic{
-    background-image: url(../picturs/login.jpeg);
+
+body {
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEg8NDQ8PDw0PDw0PDw8PDw8PDQ0NFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw8PDysZFRkrKzctKysrKy03NystLS0tKy0rKy03KysrKysrLSsrKystLSsrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAABAAIDBQYEB//EACAQAQEBAQEAAQQDAAAAAAAAAAABEQISUWGRwfAxQXH/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AP5YQXV59KSENUBgiVSAIgECqKyqkqspIGaGqyuKKDQrWM9MtdMiiimhVFZarIq6EVA0kECQtSDWqKVRQpJEeiQWHApIRGAwRJIEDQggQqoU2iqrKQBM1pmqoFNCtYxRTUozQ1RgrIsNZ0aFBA0AQChBA8/X+PooIYBqSCvRQLm85IQhNoQHVoQiSQILUKEhqqARVEKRRWaGqyqixmtKxVYojeCisdMY6M4NCsmoVmwSNUYAxY1P34GCqGLDIIEQI9BDUw4xosmAdOsrUGkNWiHRoQJJWqo0JAgQqhJKKs40BWaGlVVnGWxQYsDdZxYtYvIx0wSCsYsbokFZwSN4sCs4pG5FgjOJtBX6NWs6XNzaOsaRI1EzplA6tGrQOrRqA6tCBJL/AFQJJVCSAGzEqqgWFUQWDGgqhYcWBWcGN4sFrni8t4vKwrMg8unM+FgVznJ8tyGQKxOYnTEQrB1jTrmN6pWNMojWmVnVoNahEI0hqA6gcoIhAkEokobQFSPLQrA0BKE0lis4caw4sSueHG8OBXPDjeGQiVjF5dMWKVz8ry6YsCueJ1s34QPwpnVrk7NmVjSJGqdYMEalOskIYWUI0tEIFAgkkIkU1gooYRFEjFAcMKoIcMaErOGRpYpWcMjeHBms+VjeLCJWJFjeLFKxYmvKFryCyXF6YTrOoG4tZh0GpTrBgjUrWsaQaTMaEJZIjSBUMVRVlQqIQwwNNAjUUhghKMipVGpFhkVmqRrFDggxY1IlRnFjeKwGUcIV4GrWU4Pc2mdWg3qEIkMOsmCNaWToh1qVkqjULOkGiy1BDDBDFZ0qIxcDGsGHVQyNRmNCaY0IYrOmFctKyo0IVZKSUQSBakgfOoF530Cggalal/P9sGUGpSJSMmNYxGoISy0I0WZWtVCQRGoYOSqaTBDFxGjAYqGNQQxWW5FFDBnTI0IYqaYRCuMmHBKtUVCQJEA+cSTzvoHFLgQGNRmHQalMZjQmtelBEI00yYuI1CzrQyWmWoIY0y00mmGCGKjTUZa5GdJgMVG4WY0rJOhCa3CzDq4hQKokkCSQPnEk876CSQKGFAeaZUhNaiSELUqSoW5fsEIWokMklLiGGBNI2YkI0YUrJMqQy0klTTrSQiRQDUUAKQj/2Q==');
     background-size: cover;
-    background-repeat: no-repeat;
-}
-#div{
-    margin-top: 10%;
-}
-.home{
-    border: 2px solid;
-    border-color: rgb(63, 13, 163);
-    display: inline;
-    font-size: 25px;
-    border-radius: 50%;
-    background-color: rgb(14, 25, 12);
-    margin-left: 20px;
-    transform-style: preserve-3d;
-    animation-delay: 2s;
-}
-header{
-    position: fixed;
-    border-color: black;
-}
-a{
-    color: bisque;
-}
-#home{
-    background-color: aquamarine;
-    color: rgb(224, 23, 23);
-}
-#grocery{
-    background-color: rgb(245, 216, 87);
-}
-#foods{
-    background-color: green;
+    background-position: center;
     color: white;
 }
-#barbeque{
-    background-color: rgb(195, 50, 55);
-    color: bisque;
+
+.submit {
+    border-radius: 45%;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 253, 253);
+    background-color: rgb(48, 59, 66);
+    block-size: 40px;
+    font-size: medium;
+    font-weight: bold;
 }
-#abaut{
-    background-color: burlywood;
+
+#b {
+    color: rgb(255, 254, 254);
 }
-#barbeque-div{
+
+#loginpic {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_9N-FuuzHHvdCgvcwWcs2JN2ddCwxlYvi9A&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+}
+
+#div {
+    margin-top: 10%;
+}
+
+ul {
+    list-style: none;
+}
+
+.home {
+    display: inline;
+    margin-left: 30px;
+    font-size: xx-large;
+    border-radius: 60px;
+    padding: 1%;
+}
+
+.home:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgb(19, 18, 18);
+}
+
+.hbar {
+    background-color: rgb(62, 49, 92, 0.3);
+    border-color: blue;
+    padding: 1%;
+}
+
+.list {
+    list-style: square;
+    margin-left: 80px;
+}
+li{
+    margin-left: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+a:hover {
+    color: rgb(201, 15, 15);
+}
+
+h2 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+
+#home-div {
     margin-top: 8%;
 }
-#home-div{
+
+#grocery-div {
     margin-top: 8%;
 }
-#grocery-div{
+
+#foods-div {
     margin-top: 8%;
+
 }
-#foods-div{
+
+#abaut-div {
     margin-top: 8%;
-}
-#abaut-div{
-    margin-top: 8%;
+    text-align: center;
 }
