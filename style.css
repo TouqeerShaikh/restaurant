@@ -50,19 +50,36 @@ body {
 
 ul {
     list-style: none;
+    
 }
 
-.home {
-    display: inline;
-    margin-left: 30px;
-    font-size: xx-large;
-    border-radius: 60px;
+li {
+    margin-left: 80px;
+}
+
+table {
+    width: 1300px;
+    text-align: center;
     padding: 1%;
 }
 
-.home:hover {
+#up{
+    height: 250px;
+}
+
+.home, th {
+    display: inline-flex;
+    width: 310px;
+    font-size: xx-large;
+    padding: 1%;
+}
+.home1{
+    width: 620px;
+}
+
+.home:hover, .home1:hover{
     background-color: rgba(255, 255, 255, 0.5);
-    border-color: rgb(19, 18, 18);
+    border-color: rgb(248, 8, 8);
 }
 
 .hbar {
@@ -70,12 +87,13 @@ ul {
     border-color: blue;
     padding: 1%;
 }
+.groc {
+    height: 150px;
+    text-align: center;
+}
 
 .list {
     list-style: square;
-    margin-left: 80px;
-}
-li{
     margin-left: 80px;
 }
 
@@ -89,12 +107,16 @@ a:hover {
     color: rgb(201, 15, 15);
 }
 
+h1{
+    margin-left: 90px;
+}
 h2 {
     background-color: gray;
     color: white;
+    font-size: 30px;
     text-align: center;
+    padding: 1%;
 }
-
 
 #home-div {
     margin-top: 8%;
