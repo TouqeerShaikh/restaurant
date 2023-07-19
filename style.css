@@ -21,6 +21,7 @@ body {
     background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEg8NDQ8PDw0PDw0PDw8PDw8PDQ0NFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw8PDysZFRkrKzctKysrKy03NystLS0tKy0rKy03KysrKysrLSsrKystLSsrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAABAAIDBQYEB//EACAQAQEBAQEAAQQDAAAAAAAAAAABEQISUWGRwfAxQXH/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AP5YQXV59KSENUBgiVSAIgECqKyqkqspIGaGqyuKKDQrWM9MtdMiiimhVFZarIq6EVA0kECQtSDWqKVRQpJEeiQWHApIRGAwRJIEDQggQqoU2iqrKQBM1pmqoFNCtYxRTUozQ1RgrIsNZ0aFBA0AQChBA8/X+PooIYBqSCvRQLm85IQhNoQHVoQiSQILUKEhqqARVEKRRWaGqyqixmtKxVYojeCisdMY6M4NCsmoVmwSNUYAxY1P34GCqGLDIIEQI9BDUw4xosmAdOsrUGkNWiHRoQJJWqo0JAgQqhJKKs40BWaGlVVnGWxQYsDdZxYtYvIx0wSCsYsbokFZwSN4sCs4pG5FgjOJtBX6NWs6XNzaOsaRI1EzplA6tGrQOrRqA6tCBJL/AFQJJVCSAGzEqqgWFUQWDGgqhYcWBWcGN4sFrni8t4vKwrMg8unM+FgVznJ8tyGQKxOYnTEQrB1jTrmN6pWNMojWmVnVoNahEI0hqA6gcoIhAkEokobQFSPLQrA0BKE0lis4caw4sSueHG8OBXPDjeGQiVjF5dMWKVz8ry6YsCueJ1s34QPwpnVrk7NmVjSJGqdYMEalOskIYWUI0tEIFAgkkIkU1gooYRFEjFAcMKoIcMaErOGRpYpWcMjeHBms+VjeLCJWJFjeLFKxYmvKFryCyXF6YTrOoG4tZh0GpTrBgjUrWsaQaTMaEJZIjSBUMVRVlQqIQwwNNAjUUhghKMipVGpFhkVmqRrFDggxY1IlRnFjeKwGUcIV4GrWU4Pc2mdWg3qEIkMOsmCNaWToh1qVkqjULOkGiy1BDDBDFZ0qIxcDGsGHVQyNRmNCaY0IYrOmFctKyo0IVZKSUQSBakgfOoF530Cggalal/P9sGUGpSJSMmNYxGoISy0I0WZWtVCQRGoYOSqaTBDFxGjAYqGNQQxWW5FFDBnTI0IYqaYRCuMmHBKtUVCQJEA+cSTzvoHFLgQGNRmHQalMZjQmtelBEI00yYuI1CzrQyWmWoIY0y00mmGCGKjTUZa5GdJgMVG4WY0rJOhCa3CzDq4hQKokkCSQPnEk876CSQKGFAeaZUhNaiSELUqSoW5fsEIWokMklLiGGBNI2YkI0YUrJMqQy0klTTrSQiRQDUUAKQj/2Q==');
     background-size: cover;
     background-position: center;
+    font-size: 20px;
     color: white;
 }
 
@@ -57,14 +58,10 @@ li {
     margin-left: 80px;
 }
 
-table {
-    width: 1300px;
+table a{
+    width: 1350px;
     text-align: center;
     padding: 1%;
-}
-
-#up{
-    height: 250px;
 }
 
 .home, th {
@@ -76,8 +73,11 @@ table {
 .home1{
     width: 620px;
 }
+.home2{
+    width: 248px;
+}
 
-.home:hover, .home1:hover{
+.home:hover, .home1:hover, .home2:hover{
     background-color: rgba(255, 255, 255, 0.5);
     border-color: rgb(248, 8, 8);
 }
@@ -108,7 +108,7 @@ a:hover {
 }
 
 h1{
-    margin-left: 90px;
+    margin-left: 190px;
 }
 h2 {
     background-color: gray;
